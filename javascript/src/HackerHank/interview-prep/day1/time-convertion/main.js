@@ -1,7 +1,8 @@
 function TimeConvertion(str) {
   const modifier = str.substr(8, 2);
-  const [time] = str.split(modifier === "AM" ? "AM" : "PM");
-  let [hours, minutes, seconds] = time.split(":");
+  const [time] = str.split(modifier === 'AM' ? 'AM' : 'PM');
+  // eslint-disable-next-line prefer-const
+  let [hours, minutes, seconds] = time.split(':');
 
   console.log(hours, minutes, seconds);
 
@@ -15,4 +16,4 @@ function TimeConvertion(str) {
   return `${hours}:${minutes}:${seconds}`;
 }
 
-console.log(TimeConvertion("12:01:00PM"))
+console.log(TimeConvertion('12:01:00PM'));

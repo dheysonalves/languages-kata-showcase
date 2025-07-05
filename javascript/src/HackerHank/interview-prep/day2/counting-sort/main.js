@@ -7,3 +7,5 @@ function countingSort(arr) {
 
   return results;
 }
+
+export default countingSort;
