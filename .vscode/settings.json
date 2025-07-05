@@ -3,5 +3,7 @@
 	"files.associations": {
 		".sequelizerc": "javascript",
 		"cstdint": "c"
-	}
+	},
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode"
 }

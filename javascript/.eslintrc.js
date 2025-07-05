@@ -8,4 +8,7 @@ module.exports = {
     jest: true,
     mocha: true,
   },
+  rules: {
+    indent: ['error', 2, { SwitchCase: 1 }],
+  },
 };
